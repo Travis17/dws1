@@ -1,29 +1,35 @@
+/*create a @fon-face for the document */
 @font-face {
     font-family: Permanent Marker, cursive;
     src: url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 }
-
+/* body color and font */
 body {
     background-color: rgb(185,179,175);
     font-family: Arial, Verdana, sans-serif;
 }
+/* aligning the ul at the top of the page center*/
 ul {
     text-align: center;
 }
+/* color and aligning the text elements*/
 h1, h2 {
     text-align: center;
     color: #607b8b;
 }
+/* create a border color and align center for the h3 heading */
 h3 {
     text-align: center;
     color: #1F3d5C;
     border: 2px solid #191919;
 }
+/* create a border align text and assign the color of h4 heading */
 h4 {
     border: 2px solid #191919;
     text-align: center;
     color: 	#1F3D5C;
 }
+/* apply font family, align text center, change style and color */
 h5 {
     font-family: Permanent Marker;
     text-align: center;
@@ -31,12 +37,14 @@ h5 {
     font-weight: bold;
     color: #24476B;
 }
+/* apply font to p tag, margin, width, color */
 p {
     font-family: 'Permanent Marker', cursive;
     margin: 10px auto;
     width: 750px;
     color: #191919;
 }
+/* create the blockquote margin, font, font size, font weight, line height and color */
 blockquote {
     margin: 10px auto;
     font-family: Zapf Chancery, cursive;
@@ -45,20 +53,25 @@ blockquote {
     line-height: 200%;
     color: #242400;
 }
+/* apply link color */
 a:link {
     color: purple;
     text-decoration: none;
 }
+/* apply link color for a visited link */
 a:visited {
     color: green;
 }
+/* apply link color for a cursor hovering over the link */
 a:hover {
     color: deepskyblue;
     text-decoration: underline;
 }
+/* apply link color for and active link */
 a:active {
     color: darkblue;
 }
+/* create border, padding, background, border radius and box shadow for images */
 img {
     border: 2px solid #191919;
     padding: 10px 40px;

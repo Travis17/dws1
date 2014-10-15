@@ -5,6 +5,8 @@
 }
 /* body color and font */
 body {
+    display: inline;
+    margin: 35px auto;
     background-color: rgb(185,179,175);
     font-family: Arial, Verdana, sans-serif;
 }
@@ -31,6 +33,9 @@ h4 {
 }
 /* apply font family, align text center, change style and color */
 h5 {
+    background-color: lightblue;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
     font-family: Permanent Marker;
     text-align: center;
     font-style: italic;
@@ -39,13 +44,17 @@ h5 {
 }
 /* apply font to p tag, margin, width, color */
 p {
-    font-family: 'Permanent Marker', cursive;
     margin: 10px auto;
     width: 750px;
     color: #191919;
 }
+#inline.inline{
+    display: inline;
+}
+
 /* create the blockquote margin, font, font size, font weight, line height and color */
 blockquote {
+    display: inline-block;
     margin: 10px auto;
     font-family: Zapf Chancery, cursive;
     font-size: 16px;
